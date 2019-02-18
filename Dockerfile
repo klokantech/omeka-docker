@@ -9,7 +9,7 @@ RUN apt-get -qq update && apt-get -qq -y --no-install-recommends install \
     libfreetype6-dev \
     libjpeg62-turbo-dev \
     libmcrypt-dev \
-    libpng12-dev \
+    libpng-dev \
     libjpeg-dev \
     libmemcached-dev \
     zlib1g-dev \
