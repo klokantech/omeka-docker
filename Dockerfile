@@ -24,7 +24,7 @@ RUN docker-php-ext-install exif && \
     docker-php-ext-enable exif
 
 RUN curl -J -L -s -k \
-    'https://github.com/omeka/Omeka/releases/download/v2.6/omeka-2.6.zip' \
+    'https://github.com/omeka/Omeka/releases/download/v2.6.1/omeka-2.6.1.zip' \
     -o /var/www/omeka.zip \
 &&  unzip -q /var/www/omeka.zip -d /var/www/ \
 &&  rm /var/www/omeka.zip \
