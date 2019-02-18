@@ -29,7 +29,7 @@ RUN curl -J -L -s -k \
 &&  unzip -q /var/www/omeka.zip -d /var/www/ \
 &&  rm /var/www/omeka.zip \
 &&  rm -rf /var/www/html \
-&&  mv /var/www/omeka-2.6 /var/www/html \
+&&  mv /var/www/omeka-2.6.1 /var/www/html \
 &&  chown -R www-data:www-data /var/www/html
 
 COPY ./db.ini /var/www/html/db.ini
